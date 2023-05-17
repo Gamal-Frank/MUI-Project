@@ -1,10 +1,12 @@
+import { Button, Badge } from "flowbite-react";
 
 function App() {
-
   return (
-<div className="bg-black h-[100vh]">
-
-</div>  )
+    <div className=" h-[100vh]">
+      <Button color={"failure"}>hi niggers</Button>
+      <Badge color="info">Default</Badge>
+    </div>
+  );
 }
 
-export default App
+export default App;
