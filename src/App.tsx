@@ -1,10 +1,10 @@
-import { Button, Badge } from "flowbite-react";
+import NaveBar from "./components/NavBar";
 
 function App() {
   return (
     <div className=" h-[100vh]">
-      <Button color={"failure"}>hi niggers</Button>
-      <Badge color="info">Default</Badge>
+      <NaveBar />
+      
     </div>
   );
 }
