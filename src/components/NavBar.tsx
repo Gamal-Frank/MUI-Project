@@ -17,10 +17,10 @@ const NaveBar = () => {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <Navbar.Link as={"div"} >
+          <Navbar.Link  as={"div"} >
             <Link to="/">Home</Link>
           </Navbar.Link>
-          <Navbar.Link as={"div"} className=" cursor-pointer">
+          <Navbar.Link as={"div"} >
             <Link to="/About">About</Link>
           </Navbar.Link>
           <Navbar.Link as={"div"}>
